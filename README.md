@@ -2,44 +2,43 @@
 
 A responsive React application built with **Vite** and **Material-UI (MUI)** that fetches and displays data for the first 150 Pokémon using the [PokeAPI](https://pokeapi.co/). Users can **search** and **filter** Pokémon by name and type.
 
+---
+
 ## 🌐 Live Demo
 
-**[View Deployed App on Vercel](https://your-vercel-deployment-url.vercel.app)**  
-_(Replace the URL above with your actual deployed link)_
+👉 **[View Deployed App on Vercel](https://pokemon-explorer-alpha.vercel.app/)**
 
 ---
 
 ## 📸 Screenshots
 
-![App Screenshot](screenshot.png)  
-_(Add a screenshot of your app in the root directory and update the filename if needed)_
+![App Screenshot](public/image.png)
 
 ---
 
 ## 🚀 Features
 
 - 🔎 **Real-time search** by Pokémon name
-- 🧪 **Filter dropdown** to filter by Pokémon type (Fire, Water, etc.)
+- 🧪 **Filter dropdown** to filter by Pokémon type (Fire, Water, Grass, etc.)
 - 📄 Pokémon displayed in a clean card layout showing:
   - Name
   - Sprite Image
   - Type(s)
   - ID Number
 - 📱 **Responsive UI** with MUI components
-- ⚙️ Handles API loading states, empty results, and error handling gracefully
+- ⚙️ Graceful handling of:
+  - Loading states
+  - No results found
+  - API errors
 
 ---
 
 ## 🛠️ Tech Stack
 
-React
-
-Vite
-
-Material-UI
-
-PokeAPI
-
-Vercel for deployment
+- **React**
+- **Vite**
+- **Material-UI (MUI)**
+- **PokeAPI**
+- **Vercel** for deployment
 
 ---
